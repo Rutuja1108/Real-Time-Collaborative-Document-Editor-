@@ -13,7 +13,9 @@ Collab-Editor is a real-time collaborative editor that allows multiple users to 
 Real-time collaborative editing
 Runs locally on your machine
 Supports multiple users
-Technologies Used
+
+# Technologies Used
+
 Node.js
 WebSocket
 React
@@ -32,5 +34,7 @@ Clone the repository: git clone https://github.com/your-username/Collab-Editor.g
 Install dependencies: npm install express ws cors
 Start the server: npm start server.js
 Open multiple browser windows and navigate to http://localhost:3000 to start collaborating
-How it Works
+
+# How it Works
+
 The Collab-Editor uses WebSockets to establish a real-time connection between the client and server. When a user makes changes to the document, the changes are broadcasted to all connected clients using WebSockets. The React frontend updates the document in real-time, providing a seamless collaborative experience.
